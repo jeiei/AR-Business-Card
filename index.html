@@ -17,29 +17,40 @@
         .ar-example {
             /* height: 1000px; */
             /* width: 1000px; */
-            padding-left: 200px;
+            padding-left: 5px; 
+            /* padding-right: 10px; */
             visibility: hidden;
             font-size: 80px;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
         }
         #player {
             margin: 5%;
-            height: 400px;
-            width: 500px;
+            height: 300px;
+            width: 400px;
         }
         #page{
-            height: 400px;
-            width: 500px;
+            margin: 10%;
+            height: 300px;
+            width: 400px;
         }
         #Button{
-            padding: 50%;
-            margin: 10%;
-            width:60px;
-            height:50px;
+            /* padding: 10%; */
+            /* margin: 10%; */
+            width: 100px;
+            height: 80px;
             
+        }
+        #Dog{
+            /* padding-top: 1000px; */
+            /* padding-right: 1000px; */
+            /* padding-right: 100px;  */
+            /* margin: 15%; */
+            width: 40px;
+            height: 40px;
+            /* align-content: center; */
         }
     </style>
 </head>
@@ -50,13 +61,15 @@
         <iframe id="page" src="https://jeiei.github.io/First-website/" title="Website portfolio"></iframe>
         <p>
             <a href="https://fi.linkedin.com/in/juho-ahonen-690090207">
-            <img id="Button" src="./assets/images/LI-In-Bug.png">
+            <img id="Button" src="../assets/images/LI-In-Bug.png">
         </a>
         </p>
+        <!-- <div><img id="Dog" src="../assets/images/dog.jpg"></div> -->
         <!-- <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="juho-ahonen-690090207" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://fi.linkedin.com/in/juho-ahonen-690090207?trk=profile-badge">Juho Ahonen</a></div>                -->
     </div>
+    
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-    <script src="./libs/mindar/mindar-image-three.prod.js"></script>
+    <script src="../libs/mindar/mindar-image-three.prod.js"></script>
     <script src="js/main.js" type="module"></script>
 </body>
 </html>
