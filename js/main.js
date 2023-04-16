@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () =>{
         const player = await createYtPlayer()
         const mindARThreejs = new window.MINDAR.IMAGE.MindARThree({
             container: document.body,
-            imageTargetSrc: "./assets/targets/flower.mind"
+            imageTargetSrc: "./assets/targets/targets.mind"
         })
         const { renderer, cssRenderer, scene, cssScene, camera } = mindARThreejs
         const div = new CSS3DObject(document.querySelector("#ar-example"))
