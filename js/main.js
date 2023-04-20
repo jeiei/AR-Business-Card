@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () =>{
         await mindARThreejs.start()
         renderer.setAnimationLoop(render)
         function render() {
-            renderer.render(scene, camera)
+            cssRenderer.render(cssScene, camera)
         }
     }
     start()
